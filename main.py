@@ -21,7 +21,8 @@ origins = [
     "http://localhost:8000",
     "http://10.0.2.2:8080",  # Для Android-эмулятора
     "http://localhost:*",     # Для веб-версии Flutter
-    "http://127.0.0.1:*",    # Альтернативный адрес
+    "http://127.0.0.1:*",
+    "http://http://95.81.118.206:8000"    # Альтернативный адрес
 ]
 
 app.add_middleware(
